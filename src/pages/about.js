@@ -1,18 +1,22 @@
 import { graphql } from 'gatsby';
 import React from 'react';
+import { aboutdiv } from './About.module.scss';
 
 const about = ({ data }) => {
-	return <h1>{data.site.siteMetadata.description}</h1>;
+	return (
+		<div
+			className={aboutdiv}
+			dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
+		/>
+	);
 };
 
 export default about;
 
 export const query = graphql`
 	query {
-		site {
-			siteMetadata {
-				description
-			}
+		markdownRemark(fileAbsolutePath: { regex: "/about/" }) {
+			html
 		}
 	}
 `;

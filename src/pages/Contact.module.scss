@@ -1,0 +1,23 @@
+.contactdiv {
+    width: 100%;
+    img {
+        max-width: 100%;
+    }
+    display: flex;
+    margin: 1rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80vw;
+    // min-height: 80%;
+    padding: 1rem;
+    background-color: #5c6d70;
+    h1 {
+        text-align: center;
+    }
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
