@@ -1,7 +1,7 @@
 const path = require(`path`);
 
 exports.createPages = async ({ graphql, actions }) => {
-	const index = path.resolve(`src/templates/index.js`);
+	const index = path.resolve(`src/templates/Home.js`);
 
 	const result = await graphql(`
 		query {

@@ -1,36 +1,37 @@
 {
-  "name": "gatsby-blog",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Gatsby blog",
-  "author": "Mazed4D",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
-  },
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.36",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
-    "@fortawesome/react-fontawesome": "^0.1.16",
-    "axios": "^0.24.0",
-    "gatsby": "^4.5.2",
-    "gatsby-plugin-mdx-source-name": "^1.0.1",
-    "gatsby-plugin-react-helmet": "^5.5.0",
-    "gatsby-plugin-sass": "^5.5.0",
-    "gatsby-plugin-sharp": "^4.5.2",
-    "gatsby-remark-images": "^6.5.2",
-    "gatsby-source-filesystem": "^4.5.2",
-    "gatsby-transformer-remark": "^5.5.2",
-    "node-sass": "^7.0.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
-    "sass": "^1.48.0"
-  }
+    "name": "gatsby-blog",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Gatsby blog",
+    "author": "Mazed4D",
+    "keywords": [
+        "gatsby"
+    ],
+    "scripts": {
+        "develop": "gatsby develop",
+        "start": "gatsby develop",
+        "build": "gatsby build",
+        "serve": "gatsby serve",
+        "clean": "gatsby clean"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.36",
+        "@fortawesome/free-solid-svg-icons": "^5.15.4",
+        "@fortawesome/react-fontawesome": "^0.1.16",
+        "axios": "^0.24.0",
+        "gatsby": "^4.5.2",
+        "gatsby-plugin-layout": "^3.5.0",
+        "gatsby-plugin-mdx-source-name": "^1.0.1",
+        "gatsby-plugin-react-helmet": "^5.5.0",
+        "gatsby-plugin-sass": "^5.5.0",
+        "gatsby-plugin-sharp": "^4.5.2",
+        "gatsby-remark-images": "^6.5.2",
+        "gatsby-source-filesystem": "^4.5.2",
+        "gatsby-transformer-remark": "^5.5.2",
+        "node-sass": "^7.0.1",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-helmet": "^6.1.0",
+        "sass": "^1.48.0"
+    }
 }

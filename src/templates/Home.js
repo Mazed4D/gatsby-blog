@@ -3,12 +3,7 @@ import Post from '../components/posts/Post';
 import { graphql } from 'gatsby';
 import NavGrid from '../components/posts/NavGrid';
 
-// limit: postsPerPage,
-// skip: i * postsPerPage,
-// numOfPages,
-// currentPage: i + 1,
-
-const Posts = ({ pageContext, data }) => {
+const Home = ({ pageContext, data }) => {
 	return (
 		<div>
 			<div>
@@ -31,7 +26,7 @@ const Posts = ({ pageContext, data }) => {
 	);
 };
 
-export default Posts;
+export default Home;
 
 export const blogListQuery = graphql`
 	query blogListQuery($skip: Int!, $limit: Int!) {
