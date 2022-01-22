@@ -3,6 +3,9 @@ module.exports = {
 		title: `Milan's blog`,
 		description: `Milan Paunovic's blog`,
 	},
+	flags: {
+		DEV_SSR: true,
+	},
 	plugins: [
 		`gatsby-plugin-sass`,
 		`gatsby-plugin-sharp`,
