@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 80vw;
+    max-width: 45rem;
     // min-height: 80%;
     padding: 1rem;
     background-color: #5c6d70;
@@ -16,6 +16,9 @@
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    @media (max-width: 700px) {
+        max-width: 85vw;
+    }
 }
 
 .postContent {
