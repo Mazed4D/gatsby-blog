@@ -11,16 +11,18 @@ import NavGrid from '../components/posts/NavGrid';
 const Posts = ({ pageContext, data }) => {
 	return (
 		<div>
-			{data.allMarkdownRemark.edges.map((item) => {
-				return (
-					<Post
-						title={item.node.frontmatter.title}
-						body={item.node.excerpt}
-						slug={item.node.frontmatter.slug}
-						key={item.node.frontmatter.slug}
-					/>
-				);
-			})}
+			<div>
+				{data.allMarkdownRemark.edges.map((item) => {
+					return (
+						<Post
+							title={item.node.frontmatter.title}
+							body={item.node.excerpt}
+							slug={item.node.frontmatter.slug}
+							key={item.node.frontmatter.slug}
+						/>
+					);
+				})}
+			</div>
 			<NavGrid
 				pageNumber={pageContext.currentPage}
 				numOfPages={pageContext.numOfPages}
