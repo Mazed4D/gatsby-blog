@@ -1,4 +1,4 @@
-### Gatsby blog with Sanity CMS (to be implemented)
+### Gatsby blog
 
 Current builds are hosted at https://gatsbyblogmain22838.gatsbyjs.io/
 
